@@ -4,21 +4,116 @@ const projectsData = [
     {
         id: 1,
         title: "Cozinha Moderna",
-        image: "https://images.pexels.com/photos/3932930/pexels-photo-3932930.jpeg"
+        image: "img.jpeg"
     },
     {
         id: 2,
         title: "Sala de Estar",
-        image: "https://images.pexels.com/photos/3935325/pexels-photo-3935325.jpeg"
+        image: "img2.jpeg"
     },
     {
         id: 3,
         title: "Home Office",
-        image: "https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg"
-    }
+        image: "img3.jpeg"
+    },
+    {  
+         id: 4,
+        title: "Home Office",
+        image: "img6.jpeg"
+    },
+    {  
+         id: 5,
+        title: "Home Office",
+        image: "img7.jpeg"
+    },
+    {  
+         id: 6,
+        title: "Home Office",
+        image: "img8.jpeg"
+    },
+    {  
+         id: 7,
+        title: "Home Office",
+        image: "img9.jpeg"
+    },
+    {  
+         id: 8,
+        title: "Home Office",
+        image: "img10.jpeg"
+    },
+    {  
+         id: 9,
+        title: "Home Office",
+        image: "img11.jpeg"
+    },
+    {  
+         id: 10,
+        title: "Home Office",
+        image: "img12.jpeg"
+    },
+    {  
+         id: 11,
+        title: "Home Office",
+        image: "img13.jpeg"
+    },
+    {  
+         id: 12,
+        title: "Home Office",
+        image: "img14.jpeg"
+    },
+    {  
+         id: 13,
+        title: "Home Office",
+        image: "img15.jpeg"
+    },
+    {  
+         id: 14,
+        title: "Home Office",
+        image: "img16.jpeg"
+    },
+    {  
+         id: 15,
+        title: "Home Office",
+        image: "img17.jpeg"
+    },
+    {  
+         id: 16,
+        title: "Home Office",
+        image: "img18.jpeg"
+    },
+    {  
+         id: 17,
+        title: "Home Office",
+        image: "img19.jpeg"
+    },
+    {  
+         id: 18,
+        title: "Home Office",
+        image: "img20.jpeg"
+    },
+    {  
+         id: 19,
+        title: "Home Office",
+        image: "img21.jpeg"
+    },
+    {  
+         id: 20,
+        title: "Home Office",
+        image: "img22.jpeg"
+    },
+    {  
+         id: 21,
+        title: "Home Office",
+        image: "img23.jpeg"
+    },
+    {  
+         id: 22,
+        title: "Home Office",
+        image: "img24.jpeg"
+    },
+    
 ];
 
-// Gerar os 66 projetos restantes com imagens placeholder
 for (let i = 4; i <= 69; i++) {
     projectsData.push({
         id: i,
@@ -27,18 +122,18 @@ for (let i = 4; i <= 69; i++) {
     });
 }
 
-// Variáveis de controle - uma imagem por vez
+
 let currentIndex = 0;
 const totalProjects = projectsData.length;
 
-// Elementos DOM
+
 const projectsGrid = document.getElementById('projectsGrid');
 const prevBtn = document.getElementById('prevBtn');
 const nextBtn = document.getElementById('nextBtn');
 const currentProjectSpan = document.getElementById('currentProject');
 const totalProjectsSpan = document.getElementById('totalProjects');
 
-// Função para criar um card de projeto
+
 function createProjectCard(project) {
     return `
         <div class="project-card">
