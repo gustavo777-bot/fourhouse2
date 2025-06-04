@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Four House - Marcenaria Artesanal</title>
+    <link rel="stylesheet" href="teste.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <img src="./logo.png" alt="Four House Logo" class="logo">
+            <div class="nav-links" id="navLinks">
+                <a href="#home">Início</a>
+                <a href="#about">Sobre</a>
+                <a href="#services">Serviços</a>
+                <a href="#projects">Projetos</a>
+                <a href="#contact">Contato</a>
+            </div>
+            <button class="mobile-menu" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Fabricação de móveis em <span>MDF</span> com qualidade</h1>
+            <p>Transformamos MDF em arte, criando móveis únicos e sob medida para seu espaço</p>
+            <a href="https://wa.me/5513991675588" target="_blank" class="cta-button">Solicitar Orçamento</a>
+        </div>
+        <div class="scroll-indicator">↓</div>
+    </section>
+
+    <section id="about" class="features">
+        <div class="features-container">
+            <div class="feature-card">
+                <div class="icon">🛠️</div>
+                <h3>Qualidade Premium</h3>
+                <p>Utilizamos os melhores materiais e técnicas</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">🛡️</div>
+                <h3>Garantia</h3>
+                <p>5 anos de garantia em todos os nossos produtos</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">⭐</div>
+                <h3>Personalização</h3>
+                <p>Projetos sob medida para suas necessidades</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Nossos <span class="text-orange">Serviços</span></h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">✓</div>
+                <h3>Móveis Sob Medida</h3>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">✓</div>
+                <h3>Móveis Planejados</h3>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">✓</div>
+                <h3>Projetos Comerciais</h3>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">✓</div>
+                <h3>Consultoria</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Nossos <span class="text-orange">Projetos</span></h2>
+        
+        <div class="carousel-container">
+            <button class="carousel-btn prev-btn" aria-label="Projeto anterior">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15 18L9 12L15 6" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+            
+            <div class="carousel-track-container">
+                <div class="carousel-track">
+                    <div class="carousel-slide">
+                        <div class="project-image">
+                            <img src="https://images.pexels.com/photos/3932930/pexels-photo-3932930.jpeg" alt="Cozinha Moderna">
+                            <div class="project-overlay">
+                                <div class="watermark">FOUR HOUSE</div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Cozinha Moderna</h3>
+                            <p>Projeto personalizado com acabamento premium</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="project-image">
+                            <img src="https://images.pexels.com/photos/3935325/pexels-photo-3935325.jpeg" alt="Sala de Estar">
+                            <div class="project-overlay">
+                                <div class="watermark">FOUR HOUSE</div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Sala de Estar</h3>
+                            <p>Móveis planejados com design contemporâneo</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="project-image">
+                            <img src="https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg" alt="Home Office">
+                            <div class="project-overlay">
+                                <div class="watermark">FOUR HOUSE</div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Home Office</h3>
+                            <p>Espaço funcional e elegante</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="project-image">
+                            <img src="https://images.pexels.com/photos/3935353/pexels-photo-3935353.jpeg" alt="Quarto Planejado">
+                            <div class="project-overlay">
+                                <div class="watermark">FOUR HOUSE</div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Quarto Planejado</h3>
+                            <p>Conforto e sofisticação em cada detalhe</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="project-image">
+                            <img src="https://images.pexels.com/photos/6489107/pexels-photo-6489107.jpeg" alt="Armários Planejados">
+                            <div class="project-overlay">
+                                <div class="watermark">FOUR HOUSE</div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Armários Planejados</h3>
+                            <p>Soluções sob medida para todos os ambientes</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="project-image">
+                            <img src="https://images.pexels.com/photos/6585758/pexels-photo-6585758.jpeg" alt="Escritório Corporativo">
+                            <div class="project-overlay">
+                                <div class="watermark">FOUR HOUSE</div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Escritório Corporativo</h3>
+                            <p>Ambientes profissionais com estilo e funcionalidade</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="carousel-btn next-btn" aria-label="Próximo projeto">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 6L15 12L9 18" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </div>
+        
+        <div class="carousel-nav">
+            <div class="carousel-indicator active"></div>
+            <div class="carousel-indicator"></div>
+            <div class="carousel-indicator"></div>
+            <div class="carousel-indicator"></div>
+            <div class="carousel-indicator"></div>
+            <div class="carousel-indicator"></div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Entre em contato conosco e agende sua <span class="text-orange">visita</span>!</h2>
+        <div class="contact-grid">
+            <div class="contact-item">
+                <div class="contact-icon whatsapp-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.488" fill="#f97316"/>
+                    </svg>
+                </div>
+                <h3>WhatsApp</h3>
+                <a href="https://wa.me/5513991675588" target="_blank">(13) 99167-5588</a>
+            </div>
+            <div class="contact-item">
+                <div class="contact-icon instagram-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" fill="#f97316"/>
+                    </svg>
+                </div>
+                <h3>Instagram</h3>
+                <a href="https://instagram.com/4four_house" target="_blank">@4four_house</a>
+            </div>
+            <div class="contact-item">
+                <div class="contact-icon address-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                        <circle cx="12" cy="10" r="3" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                    </svg>
+                </div>
+                <h3>Endereço</h3>
+                <a href="https://maps.google.com/?q=Av.+Dom+Pedro+I,+1167+-+Loja+2,+Enseada,+Guarujá,+SP" target="_blank" class="address-link">Av. Dom Pedro I, 1167 - Loja 2<br>Enseada - Guarujá/SP</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Four House. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="teste.css"></script>
+</body>
+</html>
+
+:root {
+    --orange: #f97316;
+    --black: #080707;
+    --white: #ffffff;
+    --gray-50: #f9fafb;
+    --gray-200: #e5e7eb;
+    --gray-300: #9ca3af;
+    --gray-600: #6b7280;
+    --gray-800: #1f2937;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    color: var(--black);
+}
+
+.text-orange {
+    color: var(--orange);
+}
+
+/* Navigation */
+.navbar {
+    background: var(--black);
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 48px;
+    width: auto;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: var(--white);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: var(--orange);
+}
+
+.mobile-menu {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    flex-direction: column;
+    gap: 4px;
+    z-index: 1100;
+}
+
+.mobile-menu span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: var(--white);
+    transition: all 0.3s ease;
+}
+
+/* Hero Section */
+.hero {
+    background: var(--black);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 6rem 1rem;
+    position: relative;
+}
+
+.hero-content {
+    max-width: 64rem;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    color: var(--white);
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+
+.hero h1 span {
+    color: var(--orange);
+}
+
+.hero p {
+    font-size: 1.25rem;
+    color: var(--gray-300);
+    margin-bottom: 2rem;
+    max-width: 32rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta-button {
+    display: inline-block;
+    background: var(--orange);
+    color: var(--white);
+    padding: 1rem 2rem;
+    border-radius: 9999px;
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    transform: scale(1);
+}
+
+.cta-button:hover {
+    background: #ea580c;
+    transform: scale(1.05);
+}
+
+.scroll-indicator {
+    position: absolute;
+    bottom: 2rem;
+    color: var(--orange);
+    font-size: 2rem;
+    animation: bounce 2s infinite;
+}
+
+/* Features Section */
+.features {
+    background: var(--gray-50);
+    padding: 4rem 1rem;
+}
+
+.features-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.feature-card {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.feature-card .icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.feature-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+    font-weight: bold;
+    color: var(--black);
+}
+
+.feature-card p {
+    color: var(--gray-600);
+}
+
+/* Services Section */
+.services {
+    padding: 4rem 1rem;
+    background: var(--white);
+}
+
+.services h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+    color: var(--black);
+}
+
+.services-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.service-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
+    border: 2px solid var(--gray-200);
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+    background: var(--white);
+}
+
+.service-card:hover {
+    border-color: var(--orange);
+    transform: translateY(-4px);
+}
+
+.service-icon {
+    color: var(--orange);
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.service-card h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--black);
+}
+
+/* Projects Section */
+.projects {
+    padding: 4rem 1rem;
+    background: var(--gray-50);
+}
+
+.projects h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+    color: var(--black);
+}
+
+/* Carousel Styles */
+.carousel-container {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.carousel-track-container {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease;
+    height: 100%;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    background: var(--white);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+@media (min-width: 768px) {
+    .carousel-track {
+        height: 450px;
+    }
+    
+    .carousel-slide {
+        min-width: calc(100% / 2);
+    }
+}
+
+@media (min-width: 1024px) {
+    .carousel-slide {
+        min-width: calc(100% / 3);
+    }
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: var(--white);
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    transition: all 0.3s ease;
+}
+
+.carousel-btn:hover {
+    background: var(--orange);
+}
+
+.carousel-btn:hover svg path {
+    stroke: var(--white);
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+.carousel-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 8px;
+}
+
+.carousel-indicator {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--gray-300);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.carousel-indicator.active {
+    width: 24px;
+    border-radius: 4px;
+    background: var(--orange);
+}
+
+.project-image {
+    position: relative;
+    overflow: hidden;
+    height: 250px;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.carousel-slide:hover .project-image img {
+    transform: scale(1.05);
+}
+
+.project-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+}
+
+.watermark {
+    color: var(--white);
+    font-size: 1.25rem;
+    font-weight: bold;
+    transform: rotate(-45deg);
+    pointer-events: none;
+}
+
+.project-info {
+    padding: 1.5rem;
+}
+
+.project-info h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: var(--black);
+}
+
+.project-info p {
+    color: var(--gray-600);
+}
+
+/* Contact Section */
+.contact {
+    background: var(--black);
+    color: var(--white);
+    padding: 4rem 1rem;
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+}
+
+.contact-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.contact-item {
+    text-align: center;
+}
+
+.contact-icon {
+    margin-bottom: 1rem;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.contact-icon:hover {
+    transform: scale(1.1);
+}
+
+.contact-item h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+}
+
+.contact-item a {
+    color: var(--orange);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+    color: #ea580c;
+}
+
+.contact-item p {
+    color: var(--gray-300);
+    white-space: pre-line;
+}
+
+.address-link {
+    color: var(--orange) !important;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: inline-block;
+}
+
+.address-link:hover {
+    color: #ea580c !important;
+}
+
+/* Footer */
+footer {
+    background: var(--black);
+    color: var(--gray-300);
+    text-align: center;
+    padding: 2rem;
+    border-top: 1px solid var(--gray-800);
+}
+
+/* Animations */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.95);
+        padding: 5rem 2rem 2rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        z-index: 990;
+    }
+
+    .nav-links a {
+        font-size: 1.5rem;
+    }
+
+    .nav-links.active {
+        display: flex;
+        animation: fadeIn 0.3s ease forwards;
+    }
+
+    .mobile-menu {
+        display: flex;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.125rem;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact h2 {
+        font-size: 2rem;
+    }
+
+    .features h2,
+    .services h2,
+    .projects h2 {
+        font-size: 2rem;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .contact h2 {
+        font-size: 1.75rem;
+    }
+}
+
+// Mobile Menu Toggle
+function toggleMenu() {
+    const navLinks = document.getElementById('navLinks');
+    const mobileMenu = document.querySelector('.mobile-menu');
+    
+    navLinks.classList.toggle('active');
+    
+    // Animate hamburger menu
+    const spans = mobileMenu.querySelectorAll('span');
+    if (navLinks.classList.contains('active')) {
+        spans[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
+        spans[1].style.opacity = '0';
+        spans[2].style.transform = 'rotate(-45deg) translate(7px, -6px)';
+    } else {
+        spans[0].style.transform = 'none';
+        spans[1].style.opacity = '1';
+        spans[2].style.transform = 'none';
+    }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Mobile Menu Setup
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    if (mobileMenuBtn) {
+        mobileMenuBtn.addEventListener('click', toggleMenu);
+    }
+
+    // Carousel Setup
+    const track = document.querySelector('.carousel-track');
+    const slides = Array.from(track.children);
+    const nextButton = document.querySelector('.next-btn');
+    const prevButton = document.querySelector('.prev-btn');
+    const dotsNav = document.querySelector('.carousel-nav');
+    const dots = Array.from(dotsNav.children);
+    
+    // Get width of a slide (they're all the same)
+    let slideWidth = 0;
+    let slidesPerView = 1;
+    
+    // Update slides per view based on screen width
+    function updateSlidesPerView() {
+        const screenWidth = window.innerWidth;
+        if (screenWidth >= 1024) {
+            slidesPerView = 3;
+        } else if (screenWidth >= 768) {
+            slidesPerView = 2;
+        } else {
+            slidesPerView = 1;
+        }
+        
+        slideWidth = slides[0].getBoundingClientRect().width;
+        
+        // Position slides next to one another
+        slides.forEach((slide, index) => {
+            slide.style.left = slideWidth * index + 'px';
+        });
+    }
+    
+    // Call once on load
+    updateSlidesPerView();
+    
+    // Update on resize
+    window.addEventListener('resize', updateSlidesPerView);
+    
+    // Move to target slide
+    function moveToSlide(track, currentSlide, targetSlide) {
+        if (!targetSlide) return;
+        
+        track.style.transform = 'translateX(-' + targetSlide.style.left + ')';
+        currentSlide.classList.remove('current-slide');
+        targetSlide.classList.add('current-slide');
+    }
+    
+    // Update dots
+    function updateDots(currentDot, targetDot) {
+        currentDot.classList.remove('active');
+        targetDot.classList.add('active');
+    }
+    
+    // Hide/Show arrows
+    function updateArrows(slides, prevButton, nextButton, targetIndex) {
+        if (targetIndex === 0) {
+            prevButton.classList.add('hidden');
+            nextButton.classList.remove('hidden');
+        } else if (targetIndex === slides.length - slidesPerView) {
+            prevButton.classList.remove('hidden');
+            nextButton.classList.add('hidden');
+        } else {
+            prevButton.classList.remove('hidden');
+            nextButton.classList.remove('hidden');
+        }
+    }
+    
+    // Next button click
+    nextButton.addEventListener('click', e => {
+        const currentSlide = track.querySelector('.current-slide') || slides[0];
+        if (!currentSlide) return;
+        
+        slides[0].classList.add('current-slide');
+        
+        const currentIndex = slides.findIndex(slide => slide === currentSlide);
+        let nextIndex = currentIndex + 1;
+        
+        if (nextIndex >= slides.length - slidesPerView + 1) {
+            nextIndex = slides.length - slidesPerView;
+        }
+        
+        const nextSlide = slides[nextIndex];
+        const currentDot = dotsNav.querySelector('.active') || dots[0];
+        const nextDot = dots[nextIndex];
+        
+        moveToSlide(track, currentSlide, nextSlide);
+        updateDots(currentDot, nextDot);
+        updateArrows(slides, prevButton, nextButton, nextIndex);
+    });
+    
+    // Previous button click
+    prevButton.addEventListener('click', e => {
+        const currentSlide = track.querySelector('.current-slide') || slides[0];
+        if (!currentSlide) return;
+        
+        const currentIndex = slides.findIndex(slide => slide === currentSlide);
+        let prevIndex = currentIndex - 1;
+        
+        if (prevIndex < 0) {
+            prevIndex = 0;
+        }
+        
+        const prevSlide = slides[prevIndex];
+        const currentDot = dotsNav.querySelector('.active') || dots[0];
+        const prevDot = dots[prevIndex];
+        
+        moveToSlide(track, currentSlide, prevSlide);
+        updateDots(currentDot, prevDot);
+        updateArrows(slides, prevButton, nextButton, prevIndex);
+    });
+    
+    // Dots click
+    dotsNav.addEventListener('click', e => {
+        const targetDot = e.target.closest('div.carousel-indicator');
+        
+        if (!targetDot) return;
+        
+        const currentSlide = track.querySelector('.current-slide') || slides[0];
+        const currentDot = dotsNav.querySelector('.active') || dots[0];
+        const targetIndex = dots.findIndex(dot => dot === targetDot);
+        const targetSlide = slides[targetIndex];
+        
+        moveToSlide(track, currentSlide, targetSlide);
+        updateDots(currentDot, targetDot);
+        updateArrows(slides, prevButton, nextButton, targetIndex);
+    });
+    
+    // Touch events for swipe
+    let touchStartX = 0;
+    let touchEndX = 0;
+    
+    track.addEventListener('touchstart', e => {
+        touchStartX = e.changedTouches[0].screenX;
+    }, {passive: true});
+    
+    track.addEventListener('touchend', e => {
+        touchEndX = e.changedTouches[0].screenX;
+        handleSwipe();
+    }, {passive: true});
+    
+    function handleSwipe() {
+        const swipeThreshold = 50;
+        const currentSlide = track.querySelector('.current-slide') || slides[0];
+        if (!currentSlide) return;
+        
+        const currentIndex = slides.findIndex(slide => slide === currentSlide);
+        
+        // Swipe left (next)
+        if (touchEndX < touchStartX - swipeThreshold) {
+            let nextIndex = currentIndex + 1;
+            if (nextIndex >= slides.length - slidesPerView + 1) {
+                nextIndex = slides.length - slidesPerView;
+            }
+            const nextSlide = slides[nextIndex];
+            const currentDot = dotsNav.querySelector('.active') || dots[0];
+            const nextDot = dots[nextIndex];
+            
+            moveToSlide(track, currentSlide, nextSlide);
+            updateDots(currentDot, nextDot);
+            updateArrows(slides, prevButton, nextButton, nextIndex);
+        }
+        
+        // Swipe right (prev)
+        if (touchEndX > touchStartX + swipeThreshold) {
+            let prevIndex = currentIndex - 1;
+            if (prevIndex < 0) {
+                prevIndex = 0;
+            }
+            const prevSlide = slides[prevIndex];
+            const currentDot = dotsNav.querySelector('.active') || dots[0];
+            const prevDot = dots[prevIndex];
+            
+            moveToSlide(track, currentSlide, prevSlide);
+            updateDots(currentDot, prevDot);
+            updateArrows(slides, prevButton, nextButton, prevIndex);
+        }
+    }
+    
+    // Initial setup
+    slides[0].classList.add('current-slide');
+    updateArrows(slides, prevButton, nextButton, 0);
+    
+    // Smooth scroll for navigation links
+    const navLinks = document.querySelectorAll('a[href^="#"]');
+    
+    navLinks.forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            
+            if (target) {
+                const offsetTop = target.offsetTop - 80; // Account for fixed navbar
+                
+                window.scrollTo({
+                    top: offsetTop,
+                    behavior: 'smooth'
+                });
+                
+                // Close mobile menu if open
+                const navLinksMenu = document.getElementById('navLinks');
+                navLinksMenu.classList.remove('active');
+                
+                // Reset hamburger menu
+                const spans = document.querySelector('.mobile-menu').querySelectorAll('span');
+                spans[0].style.transform = 'none';
+                spans[1].style.opacity = '1';
+                spans[2].style.transform = 'none';
+            }
+        });
+    });
+
+    // Add scroll effect to navbar
+    const navbar = document.querySelector('.navbar');
+    
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > 50) {
+            navbar.style.background = 'rgba(0, 0, 0, 0.95)';
+            navbar.style.backdropFilter = 'blur(10px)';
+        } else {
+            navbar.style.background = 'var(--black)';
+            navbar.style.backdropFilter = 'none';
+        }
+    });
+
+    // Add intersection observer for animations
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver(function(entries) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = '1';
+                entry.target.style.transform = 'translateY(0)';
+            }
+        });
+    }, observerOptions);
+
+    // Observe all cards and carousel slides for animation
+    const animatedElements = document.querySelectorAll('.feature-card, .service-card, .carousel-slide');
+    animatedElements.forEach(element => {
+        element.style.opacity = '0';
+        element.style.transform = 'translateY(20px)';
+        element.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        observer.observe(element);
+    });
+
+    // Automatically advance carousel every 5 seconds
+    let autoPlayInterval;
+    
+    function startAutoPlay() {
+        autoPlayInterval = setInterval(() => {
+            const currentSlide = track.querySelector('.current-slide') || slides[0];
+            if (!currentSlide) return;
+            
+            const currentIndex = slides.findIndex(slide => slide === currentSlide);
+            let nextIndex = currentIndex + 1;
+            
+            if (nextIndex >= slides.length - slidesPerView + 1) {
+                nextIndex = 0; // Loop back to beginning
+            }
+            
+            const nextSlide = slides[nextIndex];
+            const currentDot = dotsNav.querySelector('.active') || dots[0];
+            const nextDot = dots[nextIndex];
+            
+            moveToSlide(track, currentSlide, nextSlide);
+            updateDots(currentDot, nextDot);
+            updateArrows(slides, prevButton, nextButton, nextIndex);
+        }, 5000);
+    }
+    
+    function stopAutoPlay() {
+        clearInterval(autoPlayInterval);
+    }
+    
+    startAutoPlay();
+    
+    // Pause autoplay when user interacts with carousel
+    track.addEventListener('mouseenter', stopAutoPlay);
+    track.addEventListener('touchstart', stopAutoPlay, {passive: true});
+    prevButton.addEventListener('mouseenter', stopAutoPlay);
+    nextButton.addEventListener('mouseenter', stopAutoPlay);
+    
+    // Resume autoplay when user stops interacting
+    track.addEventListener('mouseleave', startAutoPlay);
+    track.addEventListener('touchend', startAutoPlay, {passive: true});
+    prevButton.addEventListener('mouseleave', startAutoPlay);
+    nextButton.addEventListener('mouseleave', startAutoPlay);
+});
+
+// Close mobile menu when clicking outside
+document.addEventListener('click', function(event) {
+    const navLinks = document.getElementById('navLinks');
+    const mobileMenu = document.querySelector('.mobile-menu');
+    const navbar = document.querySelector('.navbar');
+    
+    if (navLinks.classList.contains('active') && 
+        !navbar.contains(event.target) && 
+        !navLinks.contains(event.target)) {
+        navLinks.classList.remove('active');
+        
+        // Reset hamburger menu
+        const spans = mobileMenu.querySelectorAll('span');
+        spans[0].style.transform = 'none';
+        spans[1].style.opacity = '1';
+        spans[2].style.transform = 'none';
+    }
+});
