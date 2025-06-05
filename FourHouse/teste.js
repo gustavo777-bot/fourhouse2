@@ -1,3 +1,4 @@
+
 // Dados dos 69 projetos
 const projectsData = [
     // Projetos reais
